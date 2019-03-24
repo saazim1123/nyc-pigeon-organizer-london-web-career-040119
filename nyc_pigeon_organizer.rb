@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if hash.has_key?(pigeon)
-          hash[name]
+          hash[name][pigeon] = []
           
         end
         
