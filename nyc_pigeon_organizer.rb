@@ -7,7 +7,6 @@ def nyc_pigeon_organizer(data)
       value.each do |name|
         if hash.has_key?(name)
           hash[name] = {}
-          
         end
       end
     end
