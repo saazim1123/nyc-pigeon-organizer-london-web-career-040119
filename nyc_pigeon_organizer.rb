@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
           hash[name][pigeon] = []
         end
         
-        if hash
+        if hash[name][pigeon]
           
         end
         
