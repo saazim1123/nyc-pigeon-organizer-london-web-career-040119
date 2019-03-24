@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           hash[name] = {}
         end
         
-        if
+        if hash.has_key?
           
         end
         
