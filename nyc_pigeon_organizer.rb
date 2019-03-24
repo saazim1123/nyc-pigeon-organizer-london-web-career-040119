@@ -15,7 +15,6 @@ def nyc_pigeon_organizer(data)
         
         if hash[name][pigeon].include?(key)
           hash[name][pigeon] << key.to_s
-          
         end
         
       end
