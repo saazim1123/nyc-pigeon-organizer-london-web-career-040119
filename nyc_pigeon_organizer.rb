@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     pigeon_hash.each do |key, value|
       value.each do |name|
         if hash.has_key?(name)
-          
+          hash[name]
           
         end
       end
